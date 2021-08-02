@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b26a2dd753.js" crossorigin="anonymous"></script>
+
+    <title>Nice Lion Technologies | Pride in Computing.</title>
+</head>
+<body class="font-body">
+<header id="header" class="bg-nice-lion-orange flex flex-col justify-between fixed top-0 z-50 w-full">
+    <div class="flex w-full justify-between items-center p-5">
+        <a href="#" id='logo' class='text-white flex space-x-4 items-center'>
+            <img src="img/logo.png" alt="" class="h-10 md:h-14">
+            <div>
+                <h1 class="font-bold text-base sm:text-2xl md:text-3xl">Nice Lion Technologies</h1>
+                <p class="text-sm md:text-lg">Computing with pride.</p>
+            </div>
+        </a>
+        <div id="links" class="text-white overflow-hidden">
+            <button id="menu-button" class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+            </button>
+            <div class="hidden space-x-6 font-semibold md:text-xl md:flex">
+                <a href="#services" class="hover:opacity-80 ">Services</a>
+                <a href="#pricing" class="hover:opacity-80 ">Pricing</a>
+                <a href="#about" class="hover:opacity-80">About</a>
+                <a href="#contact" class="hover:opacity-80">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu" class="hidden bg-nice-lion-orange w-full rounded p-4 z-40 flex flex-col text-center text-white text-lg md:hidden">
+        <a href="#services" class="hover:opacity-80 p-2 ">Services</a>
+        <a href="#pricing" class="hover:opacity-80 p-2 ">Pricing</a>
+        <a href="#about" class="hover:opacity-80 p-2">About</a>
+        <a href="#contact" class="hover:opacity-80 p-2">Contact</a>
+    </div>
+</header>
+
+<section id="hero" class="">
+    <div class="bg-nice-lion-orange pt-32 md:pt-40 flex flex-col md:flex-row px-7 py-10 justify-evenly items-center">
+        <div id="hero-left" class="text-white flex flex-col justify-center items-center sm:w-3/5 max-w-4xl">
+            <div id="hero-text" class="space-y-4 flex flex-col justify-center max-w-lg text-center sm:text-left">
+                <h1 class="text-3xl"><span class="font-bold text-5xl leading-relaxed">Web Development</span>  and Software Consulting</h1>
+                <p class="text-lg">Ditch Wordpress or drag and drop builder for a superior hand coded website.</p>
+            </div>
+            <div id="actions" class="my-16 space-x-8 ">
+                <a href="#about" class="bg-nice-lion-black rounded-lg text-white p-5 shadow-md hover:shadow-xl">Learn More</a>
+                <a href="#contact" class="bg-nice-lion-black rounded-lg text-white p-5 shadow-md hover:shadow-xl">Contact Us</a>
+            </div>
+        </div>
+        <div id="hero-img">
+            <img src="img/svg/coding.svg" alt="" class="h-96 md:animate-up-down">
+        </div>
+    </div>
+    <div id="hero-wave" class="h-40 overflow-hidden bg-nice-lion-orange text-gray-50 fill-current" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; "><path d="M0.00,49.98 C194.13,157.39 342.55,8.39 500.56,92.27 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path></svg></div>
+</section>
+
+<section id="technologies" class="flex xl:justify-evenly p-6 pb-14 bg-gray-50 space-x-10 overflow-x-auto filter grayscale shadow-sm">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Swift_logo.svg" alt="swift" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="node" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="firebase" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Google_Analytics.svg" alt="tailwindcss" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
+
+</section>
+
+<section id="services" class="bg-gray-100 pt-14 flex justify-center  items-center flex-col">
+    <!-- <div class="container px-10 my-10 flex flex-col-reverse md:flex-row  justify-around md:space-x-10"> -->
+    <div class="container px-8 my-4 xl:px-10 xl:my-10 flex flex-col-reverse lg:flex-row items-center lg:items-stretch  justify-center md:space-x-10">
+        <div id="col" class="md:px-28">
+            <div id="about-text" class="space-y-8">
+                <div id="about-heading" class="mb-10">
+                    <p class="text-gray-500 mb-2 italic">We believe in affordability.</p>
+                    <h2 class="text-4xl text-nice-lion-black font-semibold leading-relaxed">
+                        <span class="text-green-400 font-extrabold"><sup>$</sup>0</span> Down, <span class="text-green-400 font-extrabold"><sup>$</sup>80</span> Per Month. Minimal commitment.<sup class="text-gray-500">1</sup>
+                    </h2>  
+                </div>
+                <div class="leading-relaxed text-lg">
+                    <p>
+                        $0 down and $80 a month for a standard single page website suited for all business types. Our premium package comes with 5 pages
+                    </p>
+                </div>
+            </div>
+            <div class="offerings flex flex-wrap">
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full lg:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Managed Hosting</h3>
+                        <p class="italic">We will take care of all of the hosting costs</p>
+                    </div>
+                </div>
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full xl:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Domain Registration</h3>
+                        <p class="italic">Need a domain name? We can help set one up for you that you'll own for free <sup>2</sup></p>
+                    </div>
+                </div>
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full xl:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Professional Copywriting</h3>
+                        <p class="italic">Hook your customers with a brilliant website with copywriting written by a professional <sup>3</sup></p>
+                    </div>
+                </div>
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full xl:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Logo Design</h3>
+                        <p class="italic">Get an amazing logo included with our premium package that you'll own</p>
+                    </div>
+                </div>
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full xl:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Contact Forms</h3>
+                        <p class="italic">Receive messages from your customers through a contact form sent directly to your inbox</p>
+                    </div>
+                </div>
+                <div class="offering flex items-center space-x-4 my-4 p-3 w-full xl:w-1/2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 flex-none text-nice-lion-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <div class="flex flex-col space-y-3">
+                        <h3 class="text-xl font-extrabold">Google Analytics</h3>
+                        <p class="italic">See where your customers are coming from. Included on all sites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/img/svg/piggy.svg" alt="" class="p-2 w-full md:w-2/5 max-h-96 object-contain animate-up-down animation-delay-500">
+    </div>
+</section>
+
+<section id="pricing" class="p-8 bg-gray-100">
+    <div class="heading text-center">
+        <h2 class="text-center text-slate-gray text-3xl font-bold">Pricing</h2>
+    </div>
+    <div id="prices" class="flex flex-col md:flex-row items-center md:items-stretch space-y-10 md:space-y-0 md:space-x-10 justify-center mt-8">
+        
+        <div class="bg-white rounded-lg w-64 flex justify-between flex-col items-center border-2 border-gray-200 shadow-lg hover:shadow-xl">
+            <h3 class="bg-gray-200 text-xl text-center p-4 w-full">Basic</h3>
+            <h4 class="text-green-500 text-3xl mt-8">
+                <sup>$</sup>80<span class="text-gray-400 italic text-xl">/month</span>
+            </h4>
+            <ul class="my-6 space-y-6 text-center">
+                <li>Single Page Site</li>
+                <li>250 words copywriting</li>
+                <li>Managed Hosting</li>
+                <li>Five edits per month</li>
+
+            </ul>
+            <div class="bg-gray-200 w-full flex justify-center py-5">
+                <a class="bg-green-400 text-white rounded-lg text-xl px-4 py-2 shadow-md hover:shadow-lg" href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg w-64 flex justify-between flex-col items-center border-2 border-gray-200 shadow-lg hover:shadow-xl">
+            <h3 class="bg-gray-200 text-xl text-center p-4 w-full">Professional</h3>
+            <h4 class="text-green-500 text-3xl mt-8">
+                <sup>$</sup>125<span class="text-gray-400 italic text-xl">/month</span>
+            </h4>
+            <ul class="my-6 space-y-6 text-center">
+                <li>Basic plus:</li>
+                <li>Multiple Pages</li>
+                <li>Domain Included</li>
+                <li>500 words copywriting</li>
+                <li>Unlimited edits per month</li>
+            </ul>
+            <div class="bg-gray-200 w-full flex justify-center py-5">
+                <a class="bg-green-400 text-white rounded-lg text-xl px-4 py-2 shadow-md hover:shadow-lg" href="#contact">Contact Us</a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg w-64 flex justify-between flex-col items-center border-2 border-gray-200 shadow-lg hover:shadow-xl">
+            <h3 class="bg-gray-200 text-xl text-center p-4 w-full"> Upfront</h3>
+            <h4 class="text-green-500 text-3xl mt-8">
+                <sup>$</sup>3500<span class="text-gray-400 italic text-xl"> once</span>
+            </h4>
+            <ul class="my-6 space-y-6 text-center">
+                <li>Everything in Professional except managed hosting</li>
+                <li>Source code provided</li>
+                <li>Fully licensed</li>
+                <li>Edits: $80</li>
+                <li>Managed Hosting: $15</li>
+
+            </ul>
+            <div class="bg-gray-200 w-full flex justify-center py-5">
+                <a class="bg-green-400 text-white rounded-lg text-xl px-4 py-2 shadow-md hover:shadow-lg" href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="disclaimers mt-28 text-gray-500 text-sm md:px-16 space-y-5">
+        <p>
+            <sup>1</sup> Initial 3 month commitment for all new customers. After that, cancel any time.
+        </p>
+        <p>
+            <sup>2</sup> Registration of a new domain is included upon initial subscription. Domains will be registered to us through our preferred domain registrar, but will be transferred back to you if you choose to cancel. All domains less than $12.99/year will be covered. The difference of any domains exceeding $12.99/year will be billed to you once a year. For reference, most .com domains cost around $9.99/year. Upon cancellation, you will be responsible for taking over domain. Failure to make payments to use may result in domain forfeiture.  
+        </p>
+        <p>
+            <sup>3</sup> A set amount of free copywriting is included in your plan per month. Any exceeding copywriting will be billed to you at cost plus 4%. Rates vary. Contact us for more information.
+        </p>
+    </div>
+</section>
+
+<section id="about" class="bg-gray-50 pt-14 flex justify-center  items-center flex-col">
+    <div class="container px-8 my-4 xl:px-10 xl:my-10 flex flex-col-reverse lg:flex-row items-center lg:items-stretch  justify-center md:space-x-10">
+        <div id="col" class="md:px-28">
+            <div id="about-text" class="space-y-8">
+                <div id="about-heading" class="mb-10">
+                    <p class="text-gray-500 mb-2 italic">A little about us...</p>
+                    <h2 class="text-4xl text-slate-gray font-semibold">A small business <i class="font-bold">for a</i> small business.</h2>  
+                </div>
+                <p class="leading-relaxed">
+                    Nice Lion Technologies is a small web and software development company based in Clemson, South Carolina. We partner with small businesses to help give them a strong presence on the web to drive sales and retain customers.
+                </p>
+                <p class="leading-relaxed">
+                    Though Nice Lion Technologies did not legally organize until 2021, the idea started way back in 2014 when then 14 year old Ian Thompson launched his first iOS app, OrangeBlock. Since then, Ian has published various applications, open source projects, and hardware projects under the name "Nice Lion," interestingly named after a WiFi network he once connected to.
+                </p>
+                <p class="leading-relaxed">
+                    On July 7th, 2021, Nice Lion Technologies LLC legally organized in the State of South Carolina.
+                </p>
+            </div>
+        </div>
+        <img src="img/svg/business.svg" alt="" class="p-5 w-full md:w-2/5 max-h-96 animate-up-down animation-delay-1000">
+    </div>
+    <div class="team p-5 flex flex-col items-center space-y-5">
+        <h2 class="text-center text-slate-gray text-3xl font-bold">Meet the Team</h2>
+        <div class="members flex justify-center">
+            <div class="member flex flex-col bg-white rounded shadow-lg hover:shadow-xl p-5 justify-center space-y-5 w-2/3  md:w-80">
+                <img src="img/team/ian-thompson.jpeg" alt="" class='w-full rounded-lg object-cover'>
+                <div class="member-content text-center">
+                    <h3 class="font-bold text-xl">Ian Thompson</h3>
+                    <p class="text-gray-800 italic">Owner / Developer</p>
+                    <p class="mt-5 text-left text-sm">
+                        Ian Thompson is the owner and developer of Nice Lion Technologies. He is a current student at Clemson University working towards his Bachelors of Arts in Elementary Education.
+                    </p>
+                    <div class="social text-xl space-x-4 mt-8">
+                        <a href="https://www.instagram.com/thompson_ian"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.twitter.com/thompson__ian"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="pt-16 px-11 bg-gray-100 flex flex-col md:flex-row justify-around items-center md:space-x-16">
+    <div class="contact-info text-center space-y-5 mb-7 w-2/3">
+        <h1 class="text-nice-lion-black text-3xl">Contact Us</h1>
+        <p>
+            We cannot wait to do help take your small business to the next level. Contact us today, or follow us on social media. We want to hear from you.
+        </p>
+        <div class="socials text-2xl space-x-8">
+            <a href="https://www.instagram.com/niceliontechnologies"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/niceliontechnologies"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/niceliontechnologies"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="comms flex flex-col xl:flex-row space-x-8 justify-center items-center space-y-10 xl:space-y-0 ">
+            <div class="flex items-center space-x-8">
+                <i class="fas fa-phone text-4xl"></i>
+                <a href="tel:18649094893" class="text-lg hover:underline">(864) 909-4893</a>
+            </div>
+            <div class="flex items-center space-x-8">
+                <i class="fas fa-envelope text-4xl"></i>
+                <a href="mailto:info@nicelion.com" class="text-lg hover:underline">info@nicelion.com</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact-form flex flex-col rounded-lg bg-white w-3/4 md:w-full m-auto p-5">
+        <div class="heading text-center text-nice-lion-black space-y-2">
+            <h3 class="text-2xl">Drop Us a Line</h3>
+            <p class="text-slate-gray px-6">Let's build you a website!</p>
+        </div>
+
+        <form action="#" class="mt-11 space-y-5">
+            <div class="form-component space-y-2">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" placeholder="John Doe" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+            </div>
+            <div class="form-component space-y-2">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="jdoe@example.com" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+            </div>
+            <div class="form-component space-y-2">
+                <label for="phone">Phone:</label>
+                <input type="email" name="phone" id="phone" placeholder="864 555 9492" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+            </div>
+            <div class="form-component space-y-2">
+                <label for="phone">What can we help you with?:</label>
+                <textarea rows="5" name="message" id="message" placeholder="I want to get a website for my new business!" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+            </div>
+            <button type="submit" class="w-full px-3 py-4 text-white text-xl bg-nice-lion-orange rounded-md focus:bg-indigo-600 focus:outline-none">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<div class="h-40 overflow-hidden bg-nice-lion-black transform rotate-180 text-gray-100 fill-current">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C194.13,157.39 342.55,8.39 500.56,92.27 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path>
+    </svg>
+</div>
+
+<footer class="bg-nice-lion-black text-white p-7 flex flex-col">
+    <div id="footer-contnet" class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+        <div id="footer-left" class="md:w-1/2 p-7">
+            <div id="logo-footer" class="flex flex-col justify-start">
+                <div class="logo flex space-x-6 ">
+                    <img src="img/logo.png" alt="" class="h-14">
+                    <div>
+                        <h2 class="text-xl font-bold">Nice Lion Technologies</h2>
+                        <p>Pride in computing.</p>
+                        <div id="footer-social" class="mt-8 space-x-4 text-xl">
+                            <a href="https://www.instagram.com/niceliontechnologies"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/niceliontechnologies"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/niceliontechnologies"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-right" class="md:w-1/2 p-7">
+            <ul>
+                <!-- <li><a href="#">Instagram</a></li> -->
+            </ul>
+        </div>
+    </div>
+    <div id="copyright" class="text-center mt-10 space-y-2">
+        <p>Made with ❤️ and ☕️ in South Carolina.</p>
+        <p>Copyright &copy; 2021 Nice Lion Technologies LLC. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<div id="backdrop" class="fixed hidden md:hidden top-0 left-0 w-screen h-screen bg-black opacity-40 z-30">
+</div>
+</body>
+<script type="module" src="index.js"></script>
+</html>
