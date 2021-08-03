@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.section-wave {
+    @apply h-16 md:h-32 overflow-hidden text-gray-100 fill-current bg-gray-50;
+}
+
+.section-wave.inverted {
+    @apply text-gray-50 fill-current bg-gray-100;
+}
