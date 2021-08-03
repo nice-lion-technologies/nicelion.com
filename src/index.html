@@ -306,7 +306,7 @@
             <p class="text-slate-gray px-6">Let's build you a website!</p>
         </div>
 
-        <form name="contact" method="POST" data-netlify="true" class="mt-11 space-y-5">   
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="mt-11 space-y-5">   
             <div class="form-component space-y-2">
                 <label for="name">Full Name:</label>
                 <input type="text" name="name" id="name" placeholder="John Doe" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
@@ -323,6 +323,7 @@
                 <label for="phone">What can we help you with?:</label>
                 <textarea rows="5" name="message" id="message" placeholder="I want to get a website for my new business!" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="w-full px-3 py-4 text-white text-xl bg-nice-lion-orange rounded-md focus:bg-nice-lion-black focus:outline-none">Send Message</button>
         </form>
     </div>
