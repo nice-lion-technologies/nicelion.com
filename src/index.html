@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nice Lion Technologies is a web and software development company based in Clemson, South Carolina.">
     <link rel="icon" href="./img/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -23,7 +24,7 @@
             </div>
         </a>
         <div id="links" class="text-white overflow-hidden">
-            <button id="menu-button" class="md:hidden">
+            <button id="menu-button" class="md:hidden" aria-label="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
@@ -47,9 +48,9 @@
 <section id="hero" class="">
     <div class="bg-nice-lion-orange pt-32 md:pt-40 flex flex-col md:flex-row px-7 py-10 justify-evenly items-center">
         <div id="hero-left" class="text-white flex flex-col justify-center items-center sm:w-3/5 max-w-4xl">
-            <div id="hero-text" class="space-y-4 flex flex-col justify-center max-w-lg text-center sm:text-left">
+            <div id="hero-text" class="space-y-6 flex flex-col justify-center max-w-lg text-center sm:text-left">
                 <h1 class="text-3xl"><span class="font-bold text-5xl leading-relaxed">Web Development</span>  and Software Consulting</h1>
-                <p class="text-lg">Ditch Wordpress or drag and drop builder for a superior hand coded website.</p>
+                <p class="text-lg">A small business for your small business. Based in Clemson, SC.</p>
             </div>
             <div id="actions" class="my-16 space-x-8 ">
                 <a href="#about" class="bg-nice-lion-black rounded-lg text-white p-5 shadow-md hover:shadow-xl">Learn More</a>
@@ -63,7 +64,7 @@
     <div id="hero-wave" class="h-40 overflow-hidden bg-nice-lion-orange text-gray-50 fill-current" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%; "><path d="M0.00,49.98 C194.13,157.39 342.55,8.39 500.56,92.27 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path></svg></div>
 </section>
 
-<section id="technologies" class="flex xl:justify-evenly p-6 pb-14 bg-gray-50 space-x-10 overflow-x-auto filter grayscale shadow-sm">
+<section id="technologies" class="flex xl:justify-evenly p-6 pb-14 bg-gray-50 space-x-10 overflow-x-auto filter grayscale">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="javascript" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
@@ -75,6 +76,10 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Google_Analytics.svg" alt="tailwindcss" class="h-12 opacity-50 hover:opacity-90 transition-opacity duration-300 ease-in-out">
 
 </section>
+
+<div class="h-32 overflow-hidden text-gray-100 fill-current bg-gray-50">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C167.61,107.06 345.93,95.22 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path></svg>
+</div>
 
 <section id="services" class="bg-gray-100 pt-14 flex justify-center  items-center flex-col">
     <!-- <div class="container px-10 my-10 flex flex-col-reverse md:flex-row  justify-around md:space-x-10"> -->
@@ -223,6 +228,10 @@
     </div>
 </section>
 
+<div class="h-32 overflow-hidden text-gray-50 fill-current bg-gray-100">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C167.61,107.06 345.93,95.22 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path></svg>
+</div>
+
 <section id="about" class="bg-gray-50 pt-14 flex justify-center  items-center flex-col">
     <div class="container px-8 my-4 xl:px-10 xl:my-10 flex flex-col-reverse lg:flex-row items-center lg:items-stretch  justify-center md:space-x-10">
         <div id="col" class="md:px-28">
@@ -265,10 +274,14 @@
     </div>
 </section>
 
-<section id="contact" class="pt-16 px-11 bg-gray-100 flex flex-col md:flex-row justify-around items-center md:space-x-16">
+<div class="h-32 overflow-hidden text-gray-100 fill-current bg-gray-50">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C167.61,107.06 345.93,95.22 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path></svg>
+</div>
+
+<section id="contact" class="pt-16 px-3 pb-28 md:px-11 bg-gray-100 flex flex-col md:flex-row justify-around items-center md:space-x-16">
     <div class="contact-info text-center space-y-5 mb-7 w-2/3">
         <h1 class="text-nice-lion-black text-3xl">Contact Us</h1>
-        <p>
+        <p class="lg:px-28">
             We cannot wait to do help take your small business to the next level. Contact us today, or follow us on social media. We want to hear from you.
         </p>
         <div class="socials text-2xl space-x-8">
@@ -278,22 +291,22 @@
         </div>
         <div class="comms flex flex-col xl:flex-row space-x-8 justify-center items-center space-y-10 xl:space-y-0 ">
             <div class="flex items-center space-x-8">
-                <i class="fas fa-phone text-4xl"></i>
+                <i class="fas fa-phone text-2xl"></i>
                 <a href="tel:18649094893" class="text-lg hover:underline">(864) 909-4893</a>
             </div>
             <div class="flex items-center space-x-8">
-                <i class="fas fa-envelope text-4xl"></i>
+                <i class="fas fa-envelope text-2xl"></i>
                 <a href="mailto:info@nicelion.com" class="text-lg hover:underline">info@nicelion.com</a>
             </div>
         </div>
     </div>
-    <div class="contact-form flex flex-col rounded-lg bg-white w-3/4 md:w-full m-auto p-5">
+    <div class="contact-form flex flex-col rounded-lg bg-white w-full mt-4 md:w-1/2 m-auto p-5">
         <div class="heading text-center text-nice-lion-black space-y-2">
             <h3 class="text-2xl">Drop Us a Line</h3>
             <p class="text-slate-gray px-6">Let's build you a website!</p>
         </div>
 
-        <form action="#" class="mt-11 space-y-5">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="mt-11 space-y-5">
             <div class="form-component space-y-2">
                 <label for="name">Full Name:</label>
                 <input type="text" name="name" id="name" placeholder="John Doe" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
@@ -310,7 +323,7 @@
                 <label for="phone">What can we help you with?:</label>
                 <textarea rows="5" name="message" id="message" placeholder="I want to get a website for my new business!" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
             </div>
-            <button type="submit" class="w-full px-3 py-4 text-white text-xl bg-nice-lion-orange rounded-md focus:bg-indigo-600 focus:outline-none">Send Message</button>
+            <button type="submit" class="w-full px-3 py-4 text-white text-xl bg-nice-lion-orange rounded-md focus:bg-nice-lion-black focus:outline-none">Send Message</button>
         </form>
     </div>
 </section>
